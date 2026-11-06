@@ -1,7 +1,7 @@
 {
   description = "nanashi's Nixos shared flakes";
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/e158d9ed9b51c98974c5e66e1ba1c9e0255fecaa";
+    nixpkgs.url = "github:NixOS/nixpkgs/1d060086d60cb76a40cf37109f979d88a5bd6396";
   };
   outputs = { nixpkgs, ... }@inputs: with nixpkgs.lib; {
     inherit nixpkgs;
